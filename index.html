@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Simple Geom Editor</title>
+  
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.4.9/leaflet.draw.css" />
+  <style>
+
+
+    #map {
+      position: absolute;
+      top:0;
+      left:0;
+      bottom:0;
+      width: 50%;
+    }
+
+    #textarea {
+      position: absolute;
+      top: 40px;
+      right: 0;
+      bottom: 0;
+      width: 47%;
+      font-size: 15px;
+      padding: 15px;    
+    }
+
+    #idinput {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      font-size: 15px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="map"></div>
+  <input type=text id="idinput"></input>
+  <textarea id="textarea"></textarea>
+
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.4.9/leaflet.draw.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
